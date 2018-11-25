@@ -1,0 +1,19 @@
+{
+  "name": "parcel-plugin-jsonpack",
+  "version": "1.0.1",
+  "description": "Parcel plugin that uses jsonpack to pack imported json files into much smaller strings",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest",
+    "testwatch": "jest --watchAll"
+  },
+  "author": "ol-web",
+  "license": "MIT",
+  "devDependencies": {
+    "jsonpack": "^1.1.5",
+    "parcel-assert-bundle-tree": "^1.0.0",
+    "parcel-bundler": "^1.10.3",
+    "rimraf": "^2.6.2",
+    "jest": "^23.6.0"
+  }
+}
